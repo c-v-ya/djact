@@ -13,24 +13,22 @@
   "author": "Constantine",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.9.4",
     "axios": "^0.19.2",
-    "babel-loader": "^8.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "reselect": "^4.0.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "reselect": "^4.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
     "babel-plugin-import": "^1.13.0",
     "babel-polyfill": "^6.26.0",
     "css-loader": "^3.5.3",
@@ -46,6 +44,8 @@
     "redux-immutable-state-invariant": "^2.1.0",
     "style-loader": "^1.2.1",
     "webpack-bundle-analyzer": "^3.7.0",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.10.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
